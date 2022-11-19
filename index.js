@@ -70,7 +70,7 @@ bot.launch();
 
 // date - seconds to real date
 function toDateTime(secs) {
-  var t = new Date(1970, 0, 1, 12); // Epoch
+  var t = new Date(1970, 0, 1, 6); // Epoch
   t.setSeconds(secs);
   date = `${t.getUTCDate()}/${t.getUTCMonth()}/${t.getUTCFullYear()}`; // DD/MM/YYYY
   time = `${t.getUTCHours()}:${t.getUTCMinutes()}`; // HH:MM
